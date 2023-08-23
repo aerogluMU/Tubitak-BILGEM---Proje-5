@@ -32,8 +32,6 @@ static ACCELERO_Message_t accelero;
 static ACCELERO_CTRL_REG1_t ctrl_reg1;
 static uint8_t u8X,u8Y,u8Z;
 
-static uint8_t u8Flag = 0;
-
 static TaskHandle_t tReadAcc_Handle;
 static TaskHandle_t tWriteAcc_Handle;
 static TaskHandle_t tEx_Handle;
